@@ -1,6 +1,7 @@
 export * from "./utils/Async"
 export * from "./utils/GlobalInjector"
 export * from "./utils/mem2"
+export * from "./utils/Mutate"
 export * from "./utils/Record"
 export * from "./utils/SmartRegistry"
 
