@@ -1,6 +1,6 @@
 {
   "name": "@ninjs/vef",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "entity framework with support for mongo.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
