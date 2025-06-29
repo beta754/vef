@@ -1,6 +1,7 @@
 export * from "./utils/Async"
 export * from "./utils/mem2"
 export * from "./utils/Record"
+export * from "./utils/SmartRegistry"
 
 export * from "./Cursor"
 export * from "./EntityOwner"
