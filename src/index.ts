@@ -1,3 +1,4 @@
+export * from "./utils/Async"
 export * from "./utils/mem2"
 export * from "./utils/Record"
 

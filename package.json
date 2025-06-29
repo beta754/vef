@@ -1,15 +1,15 @@
 {
-  "name": "vef",
-  "version": "1.0.2",
+  "name": "@ninjs/vef",
+  "version": "1.0.4",
   "description": "entity framework with support for mongo.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "prepare": "npm run build",
-    "release": "npm version minor && npm publish",
+    "release": "npm version minor && npm publish --access=public",
     "nextVersion": "npm version patch --git-tag-version=false",
-    "vp": "npm run nextVersion && npm publish"
+    "vp": "npm run nextVersion && npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^24.0.7",
     "mongodb": "^6.17.0",
+    "ts-essentials": "^10.1.1",
     "typescript": "^5.8.3"
   }
 }
