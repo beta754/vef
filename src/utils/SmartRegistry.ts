@@ -1,10 +1,5 @@
 import { getValueOrThrow, PartialRecord, hasValue } from "./Record";
 
-declare global {
-  type InjectedServiceType = keyof InjectedServices
-  interface InjectedServices { }
-}
-
 export interface SmartRegistry<TTypes> {
   values(): TTypes[keyof TTypes][];
   register<TKey extends keyof TTypes, TArgs extends [TKey, ...any[]]>(...args: TArgs): (ctor: {
